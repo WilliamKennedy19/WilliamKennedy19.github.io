@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="calculator.css">
+        <link rel="stylesheet" href="index.css">
+        <title>Javascript Calculator</title>
+    </head>
+
+    <header>
+        <nav id="navbar" class="nav">
+            <ul class="nav-list">
+              <li><a href="../index.html">About</a></li>
+              <li><a href="https://www.linkedin.com/in/william-kennedy-030802187/" target="_blank">LinkedIn<a/></li>
+              <li><a id="profile-link" href="https://github.com/TechnologicalStandpoint" target='_blank'>Github</a></li>
+              <li><a href="#">Medium</a>
+              <li><a href="../contact.html">Contact</a>
+            </ul>
+          </nav>
+        <h1 class="front-title">Javascript Calculator</h1>
+    </header>
+
+    <body class="main">
+        <main>
+            <section id="infix-prefix-postfix">
+                <table>
+                    <tbody>
+                        <tr>
+
+                        </tr>
+                        <tr>
+
+                        </tr>
+                        <tr>
+                            
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section class="calculator">
+                <p id='output' readonly></p>
+                <table>
+                    <tbody id="calculator-buttons">
+
+                        <tr>
+                            <td><button id="leftBracket" class="operator">(</button></td>
+                            <td><button id="rightBracket" class="operator">)</button></td>
+                            <td><button id="exponent" class="operator">^</button></td>
+                            <td><button id='clear'>C</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="numberSeven" class="operand">7</button></td>
+                            <td><button id="numberEight" class="operand">8</button></td>
+                            <td><button id="numberNine" class="operand">9</button></td>
+                            <td><button id="division" class="operator">/</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="numberFour" class="operand">4</button></td>
+                            <td><button id="numberFive" class="operand">5</button></td>
+                            <td><button id="numberSix" class="operand">6</button></td>
+                            <td><button id="multiplication" class="operator">x</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="numberOne" class=" operand">1</button></td>
+                            <td><button id="numberTwo" class="operand">2</button></td>
+                            <td><button id="numberThree" class="operand">3</button></td>
+                            <td><button id="subtraction" class="operator">-</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="numberZero" class="operand">0</button></td>
+                            <td><button id="decimal" class="operand">.</button></td>
+                            <td><button id="equal">=</button></td>
+                            <td><button id="addition" class="operator">+</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <script src="calculator.js"></script>
+            </section>
+        </main>
+    </body>
+</html>
