@@ -11,7 +11,7 @@
   z-index: 0.5;
 }
 
-.operator, .operand, #clear, #equal {
+.operator, .operand, #clear, #equal, #calculator-buttons {
     width: 2.5rem;
     height: 2.5rem;
     font-size: 30px;
@@ -56,9 +56,6 @@ table {
   border-width: 2px;
 }
 
-#calculator-buttons {
-  
-}
 
 .operand:hover {
   background-color: #4CAF50; /* Green */
