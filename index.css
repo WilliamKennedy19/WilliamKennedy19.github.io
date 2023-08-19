@@ -1,0 +1,12 @@
+
+.nav-list {
+  background-color: white;
+  list-style: none;
+  overflow: hidden;
+}
+
+.nav-list li {
+  display: inline;
+  float:right;
+  margin: 10px;
+}
