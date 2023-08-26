@@ -1,4 +1,8 @@
 
+#welcome-section h1 {
+  color: white;
+}
+
 .nav-list {
   background: rgba(0, 0, 0, 0.5);
   list-style: none;
@@ -14,13 +18,22 @@
 .nav-list a {
   font-family: 'Courier New', Courier, monospace;
   color: white;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 #navbar {
   size: 10px;
 }
 
+#navbar h1 {
+  display: inline;
+  color: white;
+}
+
 #main-body {
   background-image: url(black-hole-fractal.jpg);
+}
+
+#projects {
+  
 }
