@@ -11,8 +11,8 @@
 
 .nav-list li {
   display: inline;
-  margin: 100px;
-  
+  margin: 75px;
+  text-align: center;
 }
 
 .nav-list a {
@@ -31,9 +31,36 @@
 }
 
 #main-body {
-  background-image: url(black-hole-fractal.jpg);
+  
 }
 
 #projects {
-  
+  background-color: white;
+  display: grid;
+
+  grid-template-areas:
+    'Calculator Encryption InventoryManager'
+    'Calculator Encrpytion InventoryManager'
+    'Calculator Encrpytion InventoryManager';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+#projects > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 { grid-area: Calculator; }
+.item2 { grid-area: Encryption; }
+.item3 { grid-area: InventoryManager; }
+
+#welcome-section {
+  background-color: rgba(45, 3, 234, 0.421);
+  margin: 0px;
+  min-width: 100px;
+  min-height: 500px;
 }
