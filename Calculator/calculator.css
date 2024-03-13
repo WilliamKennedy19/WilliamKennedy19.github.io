@@ -6,6 +6,7 @@
 }
 
 .main {
+  margin-top: 100px;
   border-color: yellow;
   background-color:rgba(4, 15, 104, 0.4);
   z-index: 0.5;

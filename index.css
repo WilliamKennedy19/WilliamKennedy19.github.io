@@ -305,6 +305,29 @@ img {
   transform: translateY(8px);
 }
 
+/* PAGE SECTION*/
+
+/* R Projects Page*/
+
+#r-welcome {
+  background-color: gray;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  margin-top: 70px;
+  height: 300px;
+}
+
+#r-intro {
+  padding-top: 7%;
+}
+
+#r-projects {
+  background-color: #303841;
+}
+
+#r-projects ul{
+  list-style: decimal;
+}
+
 /* Footer */
 
 footer {
