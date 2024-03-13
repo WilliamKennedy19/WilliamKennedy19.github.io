@@ -320,12 +320,22 @@ img {
   padding-top: 7%;
 }
 
-#r-projects {
+#r-project {
   background-color: #303841;
+  justify-content: left;
 }
 
-#r-projects ul{
-  list-style: decimal;
+.r-projects {
+  justify-content: left;
+}
+
+.r-projects ul{
+  
+}
+
+.r-projects li {
+  padding: 15px;
+  
 }
 
 /* Footer */
