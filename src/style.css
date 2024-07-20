@@ -1,0 +1,78 @@
+#top {
+  background-image: url(images/header.jpg);
+  margin-left: 0px;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+#quote {
+  width: 85vw;
+  position: fixed;
+  display: none;
+  color: #fff;
+  padding: 10% 0 0 55%;
+}
+.navbar {
+  border: none;
+}
+#about, #portfolio {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+hr {
+    margin: 40px auto 30px;
+    padding: 0;
+    max-width: 512px;
+    border: 0;
+    border-top: solid 2px;
+    text-align:center;
+}
+#about p {
+  margin-top: 7em;
+}
+#arrow-up {
+  display: none;
+  position: fixed;
+  height: 100px;
+  float: right;
+	padding: 0 .5em 2.1em 0;
+	bottom: -1em;
+	right: 0;
+  color: #333;
+}
+.thumbnail {
+  transition: all 0.6s;
+  transform: scale(1);
+}
+.thumbnail:hover {
+  box-shadow: 5px 5px 10px #444;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+}
+.thumbnail img {
+  min-height: 220px;
+}
+footer {
+  padding: 23px 0 0 30px;
+  font-size: 18px;
+  background-color: #333;
+  height: 70px;
+  color: #fff;
+}
+/* MEDIA QUERIES */
+@media screen and (max-width: 901px){
+  #profile {
+    display: none;
+  }
+}
