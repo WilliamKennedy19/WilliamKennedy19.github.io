@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>William's Portfolio</title>
+
+    <link rel="stylesheet" href="assets/css/encrypt.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+  <header>
+    <div>
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <div class="row">
+              <div class="col-xs-8">
+                <a class="navbar-brand" href="index.html" target="_blank">William Kennedy</a>
+              </div>
+              <div class="col-xs-4">
+                <img id="profile" src="" height="40px" style="border-radius: 50%; margin-top: 8px;" alt="Profile Picture">
+              </div>
+            </div>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#about">About</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="mailto:mail.wkennedy@walloffire.dev">Contact</a></li>
+              <li><a href="https://github.com/williamkennedy19" target="_blank"><span class="fa fa-github fa-2x"></span></a></li>
+              <li><a href="https://www.freecodecamp.org/neufunk" target="_blank"><span class="fa fa-free-code-camp fa-2x"></span></a></li>
+              <li><a href="https://www.linkedin.com/in/william-kennedy-030802187/" target="_blank"><span class="fa fa-linkedin fa-2x"></span></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <body id="main-body">
+    
+   <div id='diffie-hellman'>
+    <h2 id="dh_title">Encrypt a message using the Diffie-Hellman Key Exchange</h2>
+    <div class="dh">
+      
+      <section id="diffie-hellman-input">
+        
+        <label for="prime_input">Enter a Prime Number</label><br>
+        <input id="prime_input" type="number"></input><br><br>
+
+        <label for="g_input">Enter a number that is of order of the above prime number</label><br>
+        <input id="g_input" type="number"></input><br><br>
+
+        <label for="a_input">Enter a secret number a</label><br>
+        <input id="a_input" type="number"></input><br><br>
+
+        <label for="b_input">Enter a secret number b</label><br>
+        <input id="b_input" type="number"></input><br><br>
+
+        <button id="submit">Submit</button>
+      </section>
+      <section id="dh-output">
+        <p id="diffie-hellman-output" readonly>Hello</p>
+      </section>
+    </div>  
+  </div>
+  </body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+  <script src="assets/js/encrypt.js"></script>
+</html>
