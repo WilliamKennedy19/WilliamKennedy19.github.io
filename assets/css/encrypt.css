@@ -1,0 +1,76 @@
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #list {
+    list-style-type: none;
+  } 
+  
+  .welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  }
+  
+  .welcome-section > p {
+    font-size: 3rem;
+    font-weight: 200;
+    font-style: italic;
+    color: var(--main-red);
+  }
+  
+  .main-body {
+    background-color: black;
+  }
+  
+  h1 {
+    font-size: 6rem;
+    color: white;
+  }
+  
+  #bio {
+    color: white;
+    font-size: 20px;
+  }
+ 
+  
+  #diffie-hellman {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #37515F;    
+  }
+
+  #diffie-hellman-input {
+    background-color: #E4959E;
+    padding: 10px;
+
+    flex: 50%;
+  }
+
+  #diffie-hellman-output {
+    background-color: #E4959E;
+    padding: 10px;
+    flex: 50%;
+  }
+
+  #dh_title {
+    justify-content: left;
+    color:aliceblue
+  }
+
+  .dh {
+    display: flex;
+    border: solid;
+    border-color: yellow;
+  }
+  
