@@ -27,3 +27,17 @@ $('a').on('click', function(){
     }, 500);
     return false;
 });
+
+/* Chatbot Functionality */
+
+
+document.querySelector(".open").addEventListener("click", openForm);
+document.querySelector(".close").addEventListener("click", closeForm);
+
+function openForm() {
+  document.querySelector(".openChat").style.display = "block";
+}
+
+function closeForm() {
+  document.querySelector(".openChat").style.display = "none";
+}
