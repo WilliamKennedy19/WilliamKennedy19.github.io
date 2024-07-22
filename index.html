@@ -63,6 +63,18 @@
       </div>
     </div>
   </section> <!-- /.about -->
+
+  <button class="openChatBtn">Chat</button>
+
+  <div class="openChat">
+    <form>
+       <h1>Chat</h1>
+       <label for="msg"><b>Message</b></label>
+       <textarea placeholder="Type message.." name="msg" required></textarea>
+       <button type="submit" class="btn">Send</button>
+       <button type="button" class="btn close" onclick="closeForm()">Close</butto>
+    </form>
+ </div>
   
   <section id="portfolio">
     <div class="container">
@@ -108,7 +120,6 @@ You can click on list elements to update the progression.</p>
       </div> <!-- /.row -->
     </div> <!-- /.container --> 
   </section> <!-- /.portfolio --> 
-  
   <footer>
     <div class="text-center">
       Written & Coded with <span class="fa fa-coffee"></span> and <span class="fa fa-heart"></span> by <a href="https://codepen.io/PlayIist/#" style="color: white; font-weight: bold;">Johnathan Orsolini</a>   © 2017.
@@ -118,6 +129,7 @@ You can click on list elements to update the progression.</p>
     <i id="arrow-up" class="fa fa-chevron-circle-up fa-4x" />
   </a>
 </body>
+
 <!-- partial -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
