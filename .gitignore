@@ -1,0 +1,4 @@
+
+# Node modules
+features/dashboard/node_modules
+features/chatbot/node_modules
