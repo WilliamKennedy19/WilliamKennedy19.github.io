@@ -30,8 +30,7 @@ $('a').on('click', function(){
 
 /* Chatbot Functionality */
 
-
-document.querySelector(".open").addEventListener("click", openForm);
+document.querySelector(".openChatBtn").addEventListener("click", openForm);
 document.querySelector(".close").addEventListener("click", closeForm);
 
 function openForm() {
