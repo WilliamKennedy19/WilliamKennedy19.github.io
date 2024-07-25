@@ -67,14 +67,22 @@
   <button class="openChatBtn">Chat</button>
 
   <div class="openChat">
-    <form>
-       <h1>Chat</h1>
-       <label for="msg"><b>Message</b></label>
-       <textarea placeholder="Type message.." name="msg" required></textarea>
-       <button type="submit" class="btn">Send</button>
-       <button type="button" class="btn close" onclick="closeForm()">Close</butto>
-    </form>
+    <h2>Chat</h2>
+    <div class="text-output">
+      <textarea id="chatbot-output" readonly></textarea>
+    </div>
+    <div class="chatbot-input">
+      <section class="chatbot-text">
+        <input type="text" value="Ask a Question!"></input>
+      </section>
+      <section class="chatbot-btn">
+        <button type="submit" class="btn">&rtrif;</button>
+      </section>
+      
+    </div>
  </div>
+
+ <button type="button" class="btn close" onclick="closeForm()">Close</button>
   
   <section id="portfolio">
     <div class="container">
@@ -110,10 +118,12 @@ You can click on list elements to update the progression.</p>
           <div class="thumbnail">
             <a href="https://codepen.io/PlayIist/full/GOBjZw"><img src="https://www.liblum.com/codepen/images/tributeToDjango.PNG" alt="Tribute to Django"></a>
             <div class="caption">
-              <h3>Tribute Page to Django Reinhardt</h3>
-              <p>Tribute Page to Django Reinhardt made with Bootstrap.</p>
-              <a href="https://codepen.io/PlayIist/full/GOBjZw" target="_blank"><div class="btn btn-primary">Check it out</div></a>
-              <a href="https://codepen.io/PlayIist/pen/GOBjZw" target="_blank"><div class="btn btn-warning">See the code</div></a>
+              <h3>Chatbot</h3>
+              <p>A Chatbot for my website, I trained it on my resume, papers, and projects so that prospective employers can ask it questions about me.
+                It utilizes Javascript, LangChain and Google's VertexAI.
+              </p>
+              <a href="" target="_blank"><div class="btn btn-primary">Check it out</div></a>
+              <a href="https://github.com/WilliamKennedy19/WilliamKennedy19.github.io/tree/main/features/chatbot" target="_blank"><div class="btn btn-warning">See the code</div></a>
             </div>
           </div>
         </div>
@@ -133,5 +143,6 @@ You can click on list elements to update the progression.</p>
 <!-- partial -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
-<script  src="/assets/js/script.js"></script>
+<script src="assets/js/script.js" defer></script>
+<script src="features/chatbot/chatbot.js" defer></script>
 </html>
