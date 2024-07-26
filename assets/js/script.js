@@ -30,6 +30,8 @@ $('a').on('click', function(){
 
 /* Chatbot Functionality */
 
+const tools = require('tools.js')
+
 document.querySelector(".openChatBtn").addEventListener("click", openForm);
 document.querySelector("#chatbot-exit").addEventListener("click", closeForm);
 
