@@ -106,8 +106,22 @@ footer {
   justify-content: center;
 }
 
+#chatbot-heading {
+  flex-direction: row;
+  columns: 2;
+}
+
 #chatbot-title {
+  flex: 3;
+}
+
+#chatbot-exit {
   flex: 1;
+}
+
+#chatbot-exit button {
+  height: 100%;
+  width: 100%;
 }
 
 /* Style for Chatbot input */
@@ -125,7 +139,7 @@ footer {
 .chatbot-text {
   order: 1;
   flex-grow: 3;
-  height: 100;
+  height: 100%;
 }
 
 .chatbot-text input {

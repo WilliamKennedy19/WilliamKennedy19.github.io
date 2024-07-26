@@ -31,7 +31,7 @@ $('a').on('click', function(){
 /* Chatbot Functionality */
 
 document.querySelector(".openChatBtn").addEventListener("click", openForm);
-document.querySelector(".close").addEventListener("click", closeForm);
+document.querySelector("#chatbot-exit").addEventListener("click", closeForm);
 
 function openForm() {
   document.querySelector(".openChat").style.display = "flex";
@@ -40,5 +40,5 @@ function openForm() {
 
 function closeForm() {
   document.querySelector(".openChat").style.display = "none";
-  document.querySelector(".openChatBtn").style.display = "flex";
+  document.querySelector(".openChatBtn").style.display = "block";
 }

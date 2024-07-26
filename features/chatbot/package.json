@@ -24,6 +24,7 @@
   "dependencies": {
     "@google/generative-ai": "^0.15.0",
     "@langchain/google-vertexai": "^0.0.20",
+    "@langchain/mongodb": "^0.0.4",
     "chalk": "^5.3.0",
     "langchain": "^0.2.11",
     "node": "^22.5.1",
