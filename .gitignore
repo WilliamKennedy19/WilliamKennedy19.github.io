@@ -2,3 +2,8 @@
 # Node modules
 features/dashboard/node_modules
 features/chatbot/node_modules
+
+# Gemini API Key
+features/chatbot/.env
+application_key.json
+features/chatbot/langchain_API_key.txt
