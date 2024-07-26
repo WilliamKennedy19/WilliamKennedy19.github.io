@@ -88,49 +88,94 @@ footer {
   cursor: pointer;
   opacity: 0.8;
   position: fixed;
-  bottom: 23px;
+  bottom: 28px;
   right: 28px;
   width: 280px;
 }
 .openChat {
+  background-color: dimgray;
   display: none;
   position: fixed;
-  bottom: 0;
-  right: 15px;
+  bottom: 50px;
+  right: 28px;
   border: 3px solid #ff08086b;
   z-index: 9;
+  height: 60%;
+  width: 40rem;
+  flex-direction: column;
+  justify-content: center;
 }
-form {
-  max-width: 300px;
-  padding: 10px;
-  background-color: white;
+
+#chatbot-title {
+  flex: 1;
 }
-form textarea {
+
+/* Style for Chatbot input */
+.chatbot-input {
+  columns: 2;
   width: 100%;
-  font-size: 18px;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  border: none;
-  font-weight: 500;
-  background: #d5e7ff;
-  color: rgb(0, 0, 0);
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;  
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.chatbot-text {
+  order: 1;
+  flex-grow: 3;
+  height: 100;
+}
+
+.chatbot-text input {
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;  
+  order: 1;
+}
+
+.chatbot-btn {
+  order: 2;
+  flex-grow: 1;
+}
+
+.chatbot-btn button {
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;  
+}
+
+/* Style for Chatbot output */
+.chatbot-output {
+  flex: 7;
+}
+
+.chatbot-output textarea {
   resize: none;
-  min-height: 200px;
+  height: 100%;
+  width: 100%;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;  
+  order:1;
 }
-form textarea:focus {
-  background-color: rgb(219, 255, 252);
-  outline: none;
-}
+
 form .btn {
   background-color: rgb(34, 197, 107);
+  border-radius: 80%;
   color: white;
   padding: 16px 20px;
   font-weight: bold;
   border: none;
   cursor: pointer;
-  width: 100%;
   margin-bottom: 10px;
   opacity: 0.8;
+
 }
 form .close {
   background-color: red;
